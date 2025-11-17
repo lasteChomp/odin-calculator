@@ -1,17 +1,17 @@
-const add = (numbers) => {
-  return numbers.reduce((prev, current) => prev + current);
+const add = (x, y) => {
+  return x + y;
 };
 
-const subtract = (numbers) => {
-  return numbers.reduce((prev, current) => prev - current);
+const subtract = (x, y) => {
+  return x - y;
 };
 
-const multiply = (numbers) => {
-  return numbers.reduce((prev, current) => prev * current);
+const multiply = (x, y) => {
+  return x * y;
 };
 
-const divide = (numbers) => {
-  return numbers.reduce((prev, current) => prev / current);
+const divide = (x, y) => {
+  return x / y;
 };
 
 export { add, subtract, multiply, divide };
